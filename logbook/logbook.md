@@ -8,7 +8,7 @@ Problem: Pressing the manual step button for the clock cycle trigger multiple cl
 
 Cause: Mechanical push buttons trigger multiple micro which lead to high frequency signals sent to the output of the 555 timer.
 
-Solution: Used 0.1 and 0.001 micro ferret capacitors to deliver signals. Also utilized the SR latch within the 555 IC, in which it only takes the first signal given. 
+Solution: Used 0.1 and 0.001 microfarad capacitors to deliver signals. Also utilized the SR latch within the 555 IC, in which it only takes the first signal given. 
 
 **2. (74LS173)**
 
