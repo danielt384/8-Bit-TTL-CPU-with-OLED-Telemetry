@@ -41,3 +41,11 @@ Problem: When testing binary outputs from the LED bus to the registers, the seco
 Cause: A pin incorrectly tied to ground.
 
 Solution: Replaced with new 74LS173
+
+8/21/26
+
+What I built: Added a Program counter to count the steps from my clock module and added the first part of the RAM module, which consists of a dip switch and LED feedback.
+
+Failures: Voltage among the LS7304 IC chips fall down to 2.5V, which makes the system unable to operate properly. This may also be the reason why my LED feedback is not accurate.
+
+Next steps: Debug with a new steady power source and complete the RAM build using EEPROMS.
