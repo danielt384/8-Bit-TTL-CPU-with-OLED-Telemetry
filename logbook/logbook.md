@@ -49,3 +49,11 @@ What I built: Added a Program counter to count the steps from my clock module an
 Failures: Voltage among the LS7304 IC chips fall down to 2.5V, which makes the system unable to operate properly. This may also be the reason why my LED feedback is not accurate.
 
 Next steps: Debug with a new steady power source and complete the RAM build using EEPROMS.
+
+9/1/26
+
+What I built: Fixed the mixed up bits within my ALU (Bit 0 and Bit 1), connected output pins of the LS173 into dedicated ESP32 I2C pins
+
+Failures: The I2C failed to input and output binary data and translate it into its equivalent number
+
+Next steps: Fix the broken I2C
